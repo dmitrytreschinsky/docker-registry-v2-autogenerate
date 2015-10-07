@@ -10,8 +10,17 @@ openssl req -newkey rsa:4096 -nodes -sha256 -keyout domain.key -x509 -days 1000 
 
 docker-compose up -d
 
+docker login domenname.com:5043 (login\password testuser\testpassword)
+
+docker tag ubuntu domenname.com:5043/test
+
+docker push domenname.com:5043/test
+
+docker pull domenname.com:5043/test
+
 ###Versions
 Docker version 1.8.2, build 0a8c2e3
+
 docker-compose version: 1.4.2
 
 ###Primary source
