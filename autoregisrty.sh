@@ -8,7 +8,7 @@ upstream docker-registry {
 
 server {
   listen 443 ssl;
-  server_name docker-ci.oxagile.com;
+  server_name domenname.com;
 
   # SSL
   ssl on;
