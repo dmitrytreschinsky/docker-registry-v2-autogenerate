@@ -25,5 +25,7 @@ Docker version 1.8.2, build 0a8c2e3
 
 docker-compose version: 1.4.2
 
+3.16.0-4-amd64  Debian jessie x86_64
+
 ###Primary source
 https://github.com/docker/distribution/blob/master/docs/nginx.md
