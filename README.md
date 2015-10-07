@@ -8,6 +8,8 @@ chmod +x /usr/local/bin/docker-compose
 
 openssl req -newkey rsa:4096 -nodes -sha256 -keyout domain.key -x509 -days 1000 -out domain.crt
 
+chmod +x autoregisrty.sh && ./autoregisrty.sh
+
 docker-compose up -d
 
 docker login domenname.com:5043 (login\password testuser\testpassword)
