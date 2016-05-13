@@ -12,13 +12,13 @@ chmod +x autoregisrty.sh && ./autoregisrty.sh
 
 docker-compose up -d
 
-docker login domenname.com:5043 (login\password testuser\testpassword)
+docker login domainname.com:5043 (login\password testuser\testpassword)
 
-docker tag ubuntu domenname.com:5043/test
+docker tag ubuntu domainname.com:5043/test
 
-docker push domenname.com:5043/test
+docker push domainname.com:5043/test
 
-docker pull domenname.com:5043/test
+docker pull domainname.com:5043/test
 
 ###Versions
 Docker version 1.8.2, build 0a8c2e3
